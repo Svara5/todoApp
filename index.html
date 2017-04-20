@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Todo-JS</title>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="todo.js"></script>
+</head>
+
+<body>
+    <section id="secOne" class="container-fluid">
+        <h1 class="text-center">Task Manager</h1>
+        <div id="headerDivID" class="headerDiv input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+            <input id="inputTask" type="text" class="form-control" name="title" placeholder="Enter Task Here...">
+            <div class="input-group-btn">
+                <button id="btnID" class="btn btn-success">Add</button>
+            </div>
+        </div>
+        <!--<div id="alertID" class="alert alert-danger">Please enter a value</div>-->
+    </section>
+    <section id="secTwo" class="header container-fluid">
+        <div class="listDiv">
+            <ul id="listUl">
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+
+#secOne{
+	background:#4169e1;
+	padding: 30px;
+}
+body{
+	background: #e9eefc;
+}
+#listUl{
+	list-style: none;
+	padding: 5px;
+}
+.checked{
+	float: right;
+}
+.well{
+	font-family: times;
+	font-size: 20px;
+}
+strong{
+	padding-left: 30px;
+}
+li.span{
+	padding: 10px 10px;
+}
